@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codebase Review"
+  short_description: "Review the whole repo as-is, no diff"
+---
