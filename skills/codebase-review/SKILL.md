@@ -1,7 +1,7 @@
 ---
 name: codebase-review
 disable-model-invocation: true
-description: Review an entire codebase as it stands — no diff, no history, no fixed point. Partitions the repo into module slices, runs parallel read-only review sub-agents, then aggregates one deduplicated report grouped by severity. Read-only: findings, not fixes.
+description: "Review an entire codebase as it stands — no diff, no history, no fixed point. Partitions the repo into module slices, runs parallel read-only review sub-agents, then aggregates one deduplicated report grouped by severity. Findings only, no fixes."
 ---
 
 Review every line of code in this repository as it exists now. There is no diff: the whole tree is the review target. Read-only — the deliverable is a findings report, and fixes happen only if the user asks afterward.
