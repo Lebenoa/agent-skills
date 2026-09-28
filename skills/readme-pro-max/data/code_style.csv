@@ -1,0 +1,11 @@
+rule,applies_to,detail,example
+language-tag,every fenced block,the fence always names the language; bare ``` blocks are untestable and unhighlighted,```bash not ```
+one-liner-first,install + quick start,the first command in a block works alone; prerequisites come as separate lines above it,"pip install readme-tool
+readme-tool init"
+copy-paste-test,install + quick start,every command in the first two blocks is run (or traced to the manifest) before being written; invented flags are bugs,""
+output-when-ambiguous,quick start,show expected stdout/stderr when success is not visually obvious from the command itself,"$ rg pattern
+(matches listed)"
+comment-assumptions,shell blocks,shell lines that depend on state the reader may lack carry a comment saying what that state is,"# requires docker daemon running
+docker compose up -d"
+versioned-instructions,install,when behavior differs across versions name the version the README documents rather than staying silent,"(v2 syntax — see docs/ for v1)"
+no-placeholder,all blocks,named placeholders (YOUR_API_KEY) are uppercase + underscore + explained at first use; lorem-ipsum-style filler is never shipped,"export API_KEY=YOUR_API_KEY  # from console.example.com"

@@ -1,1 +1,4 @@
 allowed_signers
+node_modules/
+package.json
+bun.lock

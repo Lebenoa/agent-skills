@@ -1,0 +1,31 @@
+pattern,structure,best_for,visual,example
+badge-banner,"Title → one-liner → badge row → banner image","apps with a visual identity; landing-quality front page",banner,"# Vite
+
+Next-generation frontend tooling
+[badges: npm version, CI, license]
+[banner: gradient wordmark over dark background]"
+badge-screenshot,"Title → one-liner → badge row → UI screenshot","apps and tools with a GUI; screenshots answer 'what does it look like' instantly",screenshot,"# Excalidraw
+
+Virtual whiteboard for sketching hand-drawn diagrams
+[badges]
+[screenshot: canvas with a few doodles]"
+code-first,"Title → one-liner → badge row → install command immediately","libraries and CLIs where the reader wants to try it in 30 seconds",none,"# zod
+
+TypeScript-first schema validation
+[badges]
+`npm install zod`"
+problem-solution,"Title → one-liner → 'the problem' paragraph → 'the solution' paragraph","developer tools whose value isn't obvious from the name",none,"# ripgrep
+
+recursively searches directories for a regex pattern
+[badges]
+[some context: grep is slow over large trees; rg is faster and respects .gitignore]"
+badge-demo-gif,"Title → one-liner → badge row → looping demo GIF","TUIs and CLIs where motion shows the workflow better than text",demo-gif,"# lazygit
+
+simple terminal UI for git commands
+[badges]
+[GIF: staging, committing, pushing from the TUI]"
+comparison-table,"Title → one-liner → badge row → 'why not X' comparison table","tools entering an established space where users will ask 'vs. the existing thing'",none,"# Bun
+
+Incredibly fast JavaScript runtime
+[badges]
+[table: bun vs node vs deno on install/run/test speed]"

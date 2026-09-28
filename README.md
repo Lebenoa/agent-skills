@@ -10,6 +10,12 @@ Review an entire codebase as it stands — no diff, no history, no fixed point. 
 
 User-invoked only (`disable-model-invocation: true`): fires when you type its name, zero always-loaded context cost.
 
+### [readme-pro-max](skills/readme-pro-max)
+
+Generate, audit, or polish a project README. Data-driven: matches the project type against CSV tables of section skeletons, hero patterns, badge sets, tone rules, and code-snippet conventions.
+
+Model-invoked: fires on "write/fix/improve my README".
+
 ## Install
 
 ```bash

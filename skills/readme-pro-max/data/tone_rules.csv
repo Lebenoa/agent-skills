@@ -1,0 +1,9 @@
+class,avoid,instead,example
+claim,unverifiable superlatives (blazingly fast or powerful or amazing),the spec that makes the claim true (number or benchmark link or behavior),avoid 'Blazingly fast build tool' - instead 'Bundles 10k modules in under 1s (benchmarks/)'
+claim,feature counting (20+ features!),the user capability those features deliver,avoid '20+ features for image processing' - instead 'Crop + resize + convert images from one CLI'
+claim,vague compatibility ('works everywhere'),the enumerated matrix,avoid 'Works everywhere' - instead 'Linux + macOS + Windows; Node 18+'
+behavior,describing internals ('uses a hash map for O(1) lookups'),the observable result for the user,avoid 'Uses an LRU cache internally' - instead 'Repeated queries return instantly'
+behavior,roadmap-as-present ('supports X' for unbuilt X),tense that matches reality; unbuilt items go under a Roadmap heading,avoid 'Supports SFTP' (planned) - instead 'SFTP support is planned (v2)'
+structure,paragraph walls in Install/Usage,one command + one sentence per step,avoid a 5-line paragraph about installation - instead 'pip install name' then 'name init'
+structure,emoji-decorated headings on every section,plain headings; visuals only in the hero block,avoid '## 🚀 Quick Start ✨' - instead '## Quick start'
+honesty,hiding limitations or known bugs,a Limitations/Known issues section; honesty reads as reliability,avoid omitting 'no Windows support' - instead a '## Limitations' section stating it

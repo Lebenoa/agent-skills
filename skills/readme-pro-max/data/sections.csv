@@ -1,0 +1,31 @@
+project_type,section,priority,required,purpose,trigger
+cli,Title & hero,1,1,Name + one-liner + badges + single visual,
+cli,Install,2,1,Copy-paste install command from the actual registry or build steps,
+cli,Quick start,3,1,One representative invocation with real flags and expected output,
+cli,Options / commands,4,1,Command and flag reference (table preferred),
+cli,Configuration,5,0,Config file locations + env vars + precedence,project reads a config file or env vars
+cli,Examples,6,0,2-3 worked examples beyond quick start,tool has distinct modes or workflows
+cli,FAQ / Troubleshooting,7,0,Common errors with fixes,tool has known failure modes (network + permissions)
+library,Title & hero,1,1,Name + one-liner + badges + single visual,
+library,Install,2,1,Package-manager install line per supported registry,
+library,Quick start,3,1,Minimal working snippet showing the core API,
+library,API reference,4,0,Link to generated docs or a signature table for the main entry points,API surface is under ~20 public symbols
+library,Examples,5,0,Links or snippets of realistic usage,library has more than one usage pattern
+library,Compatibility,6,0,Supported versions + platforms + runtimes,library has version or platform constraints users hit
+library,Migrating,7,0,Upgrade notes from previous major versions,a breaking major release exists
+app,Title & hero,1,1,Name + one-liner + badges + screenshot or demo GIF,
+app,Features,2,1,What the user can do — behavior list + not component list,
+app,Installation,3,1,Where to get the app (releases page + store + build steps),
+app,Usage,4,1,Core workflow with visuals; one screenshot per major feature,
+app,Configuration,5,0,Settings + env vars + defaults,app exposes user settings
+app,Development,6,0,Build/test/run commands for contributors,repo accepts contributions or is dev-active
+app,Contributing,7,0,How to submit changes (link to CONTRIBUTING.md if present),contribution guide exists or is wanted
+api,Title & hero,1,1,Name + one-liner + badges + link to hosted docs,
+api,Base URL & auth,2,1,Endpoint root + auth scheme + key acquisition,
+api,Quick start,3,1,One end-to-end request/response pair (curl or SDK),
+api,Endpoints,4,1,Route table or link to generated reference,
+api,Rate limits & errors,5,0,Quota and error-response contract,API enforces rate limits or has structured errors
+api,SDKs / clients,6,0,Official client libraries with install lines,official SDKs exist
+api,Changelog,7,0,Link to versioning/deprecation policy,API versions or deprecates endpoints
+any,License,90,1,License name + link to LICENSE file,
+any,Acknowledgments,91,0,Credits + inspiration + prior art,project derives from or credits other work

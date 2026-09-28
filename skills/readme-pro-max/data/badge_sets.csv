@@ -1,0 +1,12 @@
+badge,provider,url_template,applies_when
+build status,GitHub Actions,https://img.shields.io/github/actions/workflow/status/OWNER/REPO/WORKFLOW.yml?branch=BRANCH,repo has a CI workflow file
+version,crates.io,https://img.shields.io/crates/v/CRATE,Rust project published to crates.io
+version,npm,https://img.shields.io/npm/v/PACKAGE,Node project published to npm
+version,PyPI,https://img.shields.io/pypi/v/PACKAGE,Python project published to PyPI
+version,GitHub release,https://img.shields.io/github/v/release/OWNER/REPO,project ships GitHub releases without a registry
+license,Shields static,https://img.shields.io/badge/license-LICENSE-blue,LICENSE file exists (use the SPDX identifier in the label)
+language,Shields static,https://img.shields.io/badge/lang-LANGUAGE-color,project has a dominant implementation language worth stating
+issues,GitHub,https://img.shields.io/github/issues/OWNER/REPO,project is actively maintained; omit on archived repos
+stars,GitHub,https://img.shields.io/github/stars/OWNER/REPO,project is public and wants a traction signal; omit on private repos
+docs,Shields static,https://img.shields.io/badge/docs-URL-color,hosted documentation exists (docs.rs or readthedocs or docusaurus)
+coverage,Codecov,https://img.shields.io/codecov/c/github/OWNER/REPO,coverage measured and reported to codecov
